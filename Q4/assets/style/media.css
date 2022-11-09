@@ -1,0 +1,100 @@
+/* 1200px */
+@media(max-width:75em) {
+    .paragraph {
+        width: 50em;
+    }
+
+    .card {
+        width: 15em;
+        padding: 1em;
+    }
+}
+
+/* 880px */
+@media(max-width:55em) {
+
+    header p,
+    .paragraph,
+    .card,
+    .text p {
+        width: 35em;
+    }
+
+    .header h2,
+    .text h2 {
+        margin: 1em 0;
+    }
+
+    .paragraph {
+        gap: 2em;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card h3 {
+        margin: 1em 0;
+    }
+
+    .contact-about {
+        flex-direction: column;
+    }
+
+    .footer {
+        font-size: 0.7em;
+    }
+}
+
+/* 600px */
+@media(max-width:37.5em) {
+    p {
+        font-size: 0.8em;
+    }
+
+    h1,
+    h2,
+    h4 {
+        font-size: 1.1em;
+    }
+
+    header {
+        padding: 4em 0;
+    }
+
+    header button {
+        font-size: 0.75em;
+    }
+
+    .header h2 {
+        margin: 2em 0;
+        font-size: 1.1em;
+    }
+
+    header p,
+    .paragraph,
+    .card,
+    .text p {
+        width: 20em;
+    }
+
+    .paragraph {
+        flex-direction: column;
+    }
+
+    .contact,
+    .about {
+        padding: 1em 0;
+    }
+}
+
+/* 320px */
+@media(max-width:20em) {
+
+    header p,
+    .paragraph,
+    .card,
+    .text p {
+        width: 15em;
+    }
+}

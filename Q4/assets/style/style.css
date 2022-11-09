@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    background-color: #333333;
+    padding: 8em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e6e6e6;
+}
+
+header h1 {
+    margin-bottom: 1.5em;
+}
+
+header p {
+    width: 50em;
+    margin-bottom: 1.5em;
+}
+
+header button {
+    padding: 1em;
+    color: #eaeaea;
+    background-color: #333333;
+    border: 1px solid #565656;
+    font-size: 1em;
+}
+
+/* End of Header */
+/* Main */
+main {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+}
+
+.header,
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaeaea;
+}
+
+.header h2,
+.text h2 {
+    margin: 2em 0;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    width: 75em;
+    margin-bottom: 2em;
+    gap: 4em;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    gap: 1.5em;
+}
+
+.card {
+    width: 20em;
+    padding: 1.5em;
+    background-color: #fff;
+}
+
+.card h3 {
+    margin: 2em 0;
+}
+
+.text {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.text h2 {
+    margin: 2em;
+}
+
+.text p {
+    width: 50em;
+}
+
+/* End of Main */
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    color: #eaeaea;
+}
+
+.contact-about {
+    display: flex;
+}
+
+.contact-about h2,
+.contact-about p {
+    margin: 1em;
+}
+
+.contact,
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.contact {
+    background-color: #2690d4;
+}
+
+.footer {
+    display: flex;
+    padding: 1.5em;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    font-size: 0.75em;
+}
+
+.footer span {
+    color: #2690d4;
+}
+
+/* End of Footer */

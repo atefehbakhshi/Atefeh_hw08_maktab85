@@ -79,7 +79,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4em;
+    padding: 4em 0;
     gap: 1.5em;
 }
 

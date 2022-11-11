@@ -59,7 +59,7 @@
     }
 
     header {
-        padding: 4em 0;
+        padding: 2em 0;
     }
 
     header button {
@@ -88,13 +88,19 @@
     }
 }
 
-/* 320px */
-@media(max-width:20em) {
+/* 480px */
+@media(max-width:30em) {
+
+    h1,
+    h2,
+    h4 {
+        font-size: 1em;
+    }
 
     header p,
     .paragraph,
     .card,
     .text p {
-        width: 15em;
+        width: 18em;
     }
 }

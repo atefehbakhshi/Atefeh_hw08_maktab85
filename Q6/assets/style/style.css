@@ -149,4 +149,14 @@ h3 {
     .card {
         width: 8em;
     }
+
+    .num {
+        width: 2em;
+        height: 2em;
+        left: -1em;
+    }
+
+    .num p {
+        font-size: 1em;
+    }
 }
